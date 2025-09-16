@@ -1,0 +1,20 @@
+.about-container {
+    position: relative;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 0 auto;
+    top: 180px;
+}
+
+.about-container h1 {
+    margin-bottom: 20px;
+}
+
+.about-container p {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}

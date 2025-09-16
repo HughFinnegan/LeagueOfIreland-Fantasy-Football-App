@@ -1,0 +1,144 @@
+@font-face {
+   font-family: 'webFont';
+   src: url('../componentsCSS/Font/Montserrat-VariableFont_wght.ttf') format('opentype');
+}
+
+.home-container {
+   position: relative;
+   text-align: center;
+   padding: 0;
+   margin: 0; /* Ensure no margin is applied */
+   font-family: 'webFont', sans-serif;
+   height: 100vh;
+   width: 100%;
+   overflow: hidden; /* Hide both horizontal and vertical overflow */
+   overflow-y: auto;
+   box-sizing: border-box; /* Ensure consistent box model */
+}
+
+body, html {
+   margin: 0; /* Remove default margin from body and html */
+   padding: 0; /* Remove default padding from body and html */
+   height: auto; /* Ensure body and html take full height */
+   width: 100%; /* Ensure body and html take full width */
+}
+
+.logo-top-left {
+   position: absolute;
+   left: 35px;
+   width: 170px;  
+}
+
+.banner {
+   position: absolute;
+   text-align: center;
+   background-color: rgba(0, 0, 0, 1); 
+   box-sizing: border-box;
+   border-radius: 0px;
+   display: flex; 
+   width: 100%;   
+   top: 50px;
+   align-items: center;
+}
+
+.links {
+   display: flex;
+   justify-content: flex-end;
+   width: 50%;
+}
+
+.players {
+   width: 60vw;
+   display: block;
+   margin: 0 auto;
+   margin-top: 50px;
+   height: auto;
+}
+
+.title { 
+   font-family: 'webFont', sans-serif; 
+   margin-left: 210px;
+   color: white; 
+   font-size: 40px; 
+}
+
+.content {
+   text-align: center;
+   padding: 20px;
+   font-family: 'Eastman Grotesque', sans-serif;
+   width: auto;
+   margin-top: 120px;
+}
+
+button {
+   font-family: 'webFont', sans-serif;
+   background-color: black; 
+   font-size: 20px;
+   color: white;
+   cursor: pointer;
+}
+
+.teams {
+   display: flex; 
+   flex-direction: column;
+   align-items: center;
+   height: 50px;
+   gap: 50px;
+}
+
+.one {
+   margin-top: -300px;
+   margin-left: -1350px;
+}
+
+.two {
+   margin-top: -130px;
+   margin-left: -1100px;
+}
+
+.three {
+   margin-top: -50px;
+   margin-left: 1100px;
+}
+
+.four {
+   margin-top: 30px;
+   margin-left: 1350px;
+}
+
+.team {
+   width: 100px;
+}
+
+.smallTeam {
+   width: 120px;
+}
+
+.howTo {
+   display: flex;
+   margin-left: 60px;
+   width: 100%;
+   align-items: center;
+}
+
+.howToStep {
+   display: flex;
+   flex-direction: column;
+   width: 28%;
+   padding: 20px;
+   align-items: center;
+}
+
+.text {
+   font-Family: 'webFont', 'sans-serif';
+   color: 'black';
+   font-Size: 30px;
+}
+
+.start {
+   padding: 30px 200px;
+}
+
+.bottom {
+   margin-top: 280px;
+}

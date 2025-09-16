@@ -1,0 +1,19 @@
+
+.toggle-button {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+    left: 1%;
+    z-index: 2;
+}
+
+.toggle-button:hover {
+    background-color: rgb(149, 149, 149); /* Fully opaque white background on hover */
+    color: #333; /* Dark text color on hover */
+}

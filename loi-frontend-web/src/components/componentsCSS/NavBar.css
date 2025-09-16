@@ -1,0 +1,48 @@
+.nav-container {
+    position: relative;
+}
+
+.nav {
+    position: absolute;
+    top: 50px;
+    left: 1%;
+    z-index: 1;
+    background-color: rgba(84, 84, 84, 0.853);
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    opacity: 0; /* Initially hide the nav */
+    transition: opacity 0.3s ease-in-out; /* Add transition for smooth animation */
+}
+
+.nav.active {
+    opacity: 1; /* Show the nav */
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.nav ul li {
+    margin-bottom: 10px;
+}
+
+.nav ul li:last-child {
+    margin-right: 0;
+}
+
+.nav a {
+    color: rgba(232, 232, 232, 0.9); 
+    text-decoration: none;
+    font-size: 1rem; 
+    font-weight: 600; 
+    transition: color 0.3s ease; 
+}
+
+.nav a:hover {
+    color: #8e8e8e; /* Change text color on hover */
+}

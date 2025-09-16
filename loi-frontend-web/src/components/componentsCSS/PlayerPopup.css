@@ -1,0 +1,129 @@
+.popup-overlay {
+   position: fixed;
+   top: -100px;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background: rgba(0, 0, 0, 0.5);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 1000;
+}
+
+.popup-content {
+   background: white;
+   padding: 20px;
+   border-radius: 5px;
+   position: relative;
+   width: 70%;
+   height: 73%;
+   top: 5%;
+}
+
+.popup-close {
+   position: absolute;
+   background: none;
+   border: none;
+   font-size: 20px;
+   cursor: pointer;
+   color: black;
+   top: 10px;
+   right: 10px;
+}
+
+.player-table-container {
+   max-height: 400px;
+   margin-top: 10px;
+   overflow-y: auto;
+   position: relative;
+}
+
+.player-table {
+   width: 100%;
+   margin: 0;
+   border-collapse: collapse;
+   padding: 0;
+}
+
+.player-table thead {
+   position: sticky;
+   top: -1px;
+   background: white;
+   z-index: 1;
+   margin: 0;  
+   padding: 0; 
+}
+
+.player-table th, .player-table td {
+   border: 1px solid #ddd;
+   padding: 8px;
+   margin: 0;
+}
+
+.player-table th {
+   cursor: pointer;
+   background: #f9f9f9; /* Ensure the background is set for the sticky header */
+}
+
+.player-table tbody {
+   margin-top: 10px;  
+   padding: 0;  
+}
+
+.player-table tbody tr:hover {
+   background-color: #f2f2f2; 
+}
+
+.selected-row {
+   background-color: #6b696b;
+   color: white;
+}
+
+.selected-row:hover {
+   background-color: #6b696b !important; 
+}
+
+.player-table tbody tr:not(.selected-row):hover {
+   background-color: #f2f2f2; 
+}
+
+.filters {
+   display: inline-flex;
+   gap: 30px;
+   transform: translate(25%, -15%);
+}
+
+.search {
+   width: 230px;
+}
+
+.filter {
+   font-family: 'webFont';
+   padding: 0px 10px;
+}
+
+.choose {
+   transform: translate(38%, -35%);
+}
+
+.cancel-button {
+   position: absolute;
+   bottom: 30px;
+   top: auto;
+   background: red;
+   width: 100px;
+}
+
+.select-button {
+   margin-left: 960px;
+   position: absolute;
+   bottom: 30px;
+   background: green;
+   width: 100px;
+}
+
+.select-club {
+   width: 200px;
+   text-align: center;
+}

@@ -1,0 +1,65 @@
+.select11 {
+   margin-left: 50%;
+   margin-top: 180px;
+   transform: translateX(-38%);
+}
+
+.formation-button {
+   display: inline-block;
+   margin: 10px;
+   padding: 10px 20px;
+   border: 2px solid black;
+   border-radius: 5px;
+   background-color: #f8f9fa;
+   color: black;
+   cursor: pointer;
+   transition: background-color 0.3s, color 0.3s;
+width: 100px;
+}
+
+.formation-button:hover {
+   background-color: black;
+   color: #f8f9fa;
+}
+
+.formation-button.selected {
+   background-color: black;
+   color: #f8f9fa;
+   border-color: black;
+}
+
+.replace-button {
+   width: 24px;
+   height: 24px;
+   justify-content: center;
+   cursor: pointer;
+   position: absolute;
+   top: -60px;
+   right: 10px;
+   border-radius: 50%;
+   border: 1px solid black;
+}
+
+.submit-team {
+   margin-left: 50%;
+   transform: translateX(-50%);
+   margin-top: 200px;
+   background-color: green;
+   height: 50px;
+   padding: 10px 20px;
+   width: 30%;
+   cursor: pointer;
+}
+
+.submit-squad.disabled {
+   background-color: gray;
+   cursor: not-allowed;
+}
+
+.bench {
+   margin-left: 10%;
+}
+
+.substitute {
+   top: 880px;
+}
